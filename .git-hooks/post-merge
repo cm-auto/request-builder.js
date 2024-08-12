@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+current_branch=$(git symbolic-ref --short HEAD)
+
+if [ "$current_branch" == "master" ]
+then
+        npx tsc && git add "dist"
+fi

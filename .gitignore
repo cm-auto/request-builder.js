@@ -1,0 +1,3 @@
+# to has to be included, if the repository is entered as a dependency in other project's package.json
+#/dist
+/node_modules
